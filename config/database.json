@@ -1,0 +1,27 @@
+{
+  "development2": {
+    "username": "postgres",
+    "password": "103Lastmilecare",
+    "database": "lastmileDbDev",
+    "host": "db-nov-4.c7iaiuwec4lg.ap-south-1.rds.amazonaws.com",
+    "dialect": "postgres"
+  },
+  "development": {
+    "username": "postgres",
+    "password": "103Lastmilecare",
+    "database": "lastmileDb",
+    "host": "database-1.c1i0cmiimplb.us-east-1.rds.amazonaws.com",
+    "dialect": "postgres",
+    "dialectOptions": {
+      "ssl": {
+        "require": false,
+        "rejectUnauthorized": false
+      }}},
+  "production": {
+    "username": "postgres",
+    "password": "103Lastmilecare",
+    "database": "lastmileDb",
+    "host": "db-nov-4.c7iaiuwec4lg.ap-south-1.rds.amazonaws.com",
+    "dialect": "postgres"
+  }
+}
